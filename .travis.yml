@@ -16,7 +16,7 @@ jobs:
       - "1.10"
       arch: amd64
       script:
-      - go run hello_world.go
+      - go run Hello_World.go
     - dist: bionic
       virt: vm
       language: go
@@ -24,7 +24,7 @@ jobs:
       - "1.10"
       arch: amd64
       script:
-       - go run hello_world.go
+       - go run Hello_World.go
     - dist: bionic
       virt: lxd
       language: go
@@ -32,7 +32,7 @@ jobs:
       - "1.10"
       arch: amd64
       script:
-         - go run hello_world.go
+         - go run Hello_World.go
     - dist: xenial
       virt: vm
       language: go
@@ -40,7 +40,7 @@ jobs:
       - "1.10"
       arch: amd64
       script:
-        - go run hello_world.go
+        - go run Hello_World.go
     - dist: xenial
       virt: lxd
       language: go
@@ -48,7 +48,7 @@ jobs:
       - "1.10"
       arch: amd64
       script:
-        - go run hello_world.go
+        - go run Hello_World.go
     - dist: focal
       virt: vm
       language: go
@@ -56,7 +56,7 @@ jobs:
       - "1.10"
       arch: amd64
       script:
-        - go run hello_world.go
+        - go run Hello_World.go
     - dist: focal
       virt: lxd
       language: go
@@ -64,4 +64,4 @@ jobs:
       - "1.10"
       arch: amd64
       script:
-        - go run hello_world.go
+        - go run Hello_World.go
