@@ -8,7 +8,7 @@ jobs:
       - "1.10"
       arch: amd64
       script:
-       - go run hello_world.go
+       - go run Hello_World.go
     - dist: jammy
       virt: lxd
       language: go
