@@ -1,1 +1,9 @@
-
+os: linux
+jobs:
+  include:
+    - dist: jammy
+      virt: vm
+      language: go
+      arch: amd64
+      script:
+       
