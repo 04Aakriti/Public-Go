@@ -4,6 +4,68 @@ jobs:
     - dist: jammy
       virt: vm
       language: go
+      go:
+      - 1.x
+      - "1.10"
+      - 1.11.x
+      - master
       arch: amd64
       script:
+       - go run hello_world.go
+    - dist: jammy
+      virt: lxd
+      language: go
+      arch: amd64
+      script:
+      - go run hello_world.go
+    - dist: bionic
+      virt: vm
+      language: go
+      arch: amd64
+      script:
+       - go run hello_world.go
+    - dist: bionic
+      virt: lxd
+      language: go
+      arch: amd64
+      script:
+         - go run hello_world.go
+    - dist: xenial
+      virt: vm
+      language: go
+      arch: amd64
+      script:
+        - go run hello_world.go
+    - dist: xenial
+      virt: lxd
+      language: go
+      arch: amd64
+      script:
+        - go run hello_world.go
+    - dist: focal
+      virt: vm
+      language: go
+      arch: amd64
+      script:
+        - go run hello_world.go
+    - dist: focal
+      virt: lxd
+      language: go
+      arch: amd64
+      script:
+        - go run hello_world.go
+    - dist: focal
+      virt: lxd
+      arch: amd64
+      services:
+        - mysql
+        - postgresql
+        - elasticsearch
+        - mongodb
+        - couchdb
+      addons:
+        mariadb: '10.0'
+        
        
+       
+        
