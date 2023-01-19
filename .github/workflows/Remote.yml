@@ -4,11 +4,11 @@ on:
    workflow_dispatch:
     inputs:
       name:
-         description: "asdsad"
+         description: 'asdsad'
          required: true
          default: ""
       home:
-         description: "Asdadasda"
+         description: 'Asdadasda'
          required: true
          default: ""
       test:
