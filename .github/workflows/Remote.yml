@@ -5,11 +5,11 @@ on:
     inputs:
       name:
          description: 'asdsad'
-         required: true
+         required: false
          default: ""
       home:
          description: 'Asdadasda'
-         required: true
+         required: false
          default: ""
       test:
         description: 'Test Plan issue key'
