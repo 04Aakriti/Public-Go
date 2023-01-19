@@ -21,11 +21,11 @@ on:
         default: ""
       TESTS_KEY:
         description: 'Test Plan issue key'
-        required: false
+        required: True
         default: ""
       PROJECT_KEY:
         description: 'Test Plan issue key'
-        required: True
+        required: false
         default: ""
       USER:
         description: 'Test Plan issue key'
