@@ -9,11 +9,11 @@ on:
          default: ""
       home:
          description: "Asdadasda"
-         required: false
+         required: true
          default: ""
       test:
         description: 'Test Plan issue key'
-        required: false
+        required: true
         default: ""
       ISSUE_KEY:
         description: 'Test Plan issue key'
@@ -21,15 +21,15 @@ on:
         default: ""
       TESTS_KEY:
         description: 'Test Plan issue key'
-        required: false
+        required: true
         default: ""
       PROJECT_KEY:
         description: 'Test Plan issue key'
-        required: false
+        required: true
         default: ""
       USER:
         description: 'Test Plan issue key'
-        required: false
+        required: true
         default: ""
 
 jobs:
