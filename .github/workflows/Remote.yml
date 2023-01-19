@@ -5,7 +5,7 @@ on:
     inputs:
       name:
          description: "asdsad"
-         required: false
+         required: true
          default: ""
       home:
          description: "Asdadasda"
@@ -25,11 +25,11 @@ on:
         default: ""
       PROJECT_KEY:
         description: 'Test Plan issue key'
-        required: True
+        required: false
         default: ""
       USER:
         description: 'Test Plan issue key'
-        required: True
+        required: false
         default: ""
 
 jobs:
