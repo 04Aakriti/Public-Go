@@ -21,7 +21,7 @@ on:
         default: ""
       TESTS_KEY:
         description: 'Test Plan issue key'
-        required: True
+        required: false
         default: ""
       PROJECT_KEY:
         description: 'Test Plan issue key'
@@ -29,7 +29,7 @@ on:
         default: ""
       USER:
         description: 'Test Plan issue key'
-        required: false
+        required: True
         default: ""
 
 jobs:
