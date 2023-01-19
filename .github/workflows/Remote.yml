@@ -5,7 +5,7 @@ on:
     inputs:
       name:
          description: "asdsad"
-         required: false
+         required: True
          default: ""
       home:
          description: "Asdadasda"
